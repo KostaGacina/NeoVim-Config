@@ -22,9 +22,10 @@ vo.breakindent = true
 
 -- use system clipboard as default register
 vo.clipboard:append("unnamedplus")
-
 -- disable swap
 vo.swapfile = false
+
+vim.g.python3_host_prog = "/usr/bin/python3"
 
 -- disable backup
 vo.backup = false
