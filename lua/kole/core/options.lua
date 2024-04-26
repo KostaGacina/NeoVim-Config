@@ -21,7 +21,7 @@ vo.ignorecase = true -- ignore case when searching
 vo.breakindent = true
 
 -- use system clipboard as default register
-vo.clipboard:append("unnamedplus")
+vo.clipboard = "unnamedplus"
 -- disable swap
 vo.swapfile = false
 
