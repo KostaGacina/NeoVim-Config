@@ -41,6 +41,7 @@ return {
 				"css",
 				"bash",
 				"go",
+				"java",
 			},
 			incremental_selection = {
 				enable = true,

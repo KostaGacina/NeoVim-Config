@@ -21,7 +21,8 @@ vo.ignorecase = true -- ignore case when searching
 vo.breakindent = true
 
 -- use system clipboard as default register
-vo.clipboard = "unnamedplus"
+vo.clipboard:append("unnamedplus")
+--vim.opt.clipboard = "unnamedplus"
 -- disable swap
 vo.swapfile = false
 
